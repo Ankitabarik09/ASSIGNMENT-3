@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ankita - 17-year-old student and aspiring web developer from Maruti Kunj, Haryana.">
+  <title>Ankita | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+
+  <header class="header">
+    <a href="#top" class="logo">Ankita's Portfolio</a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+    <label for="menu-toggle" class="hamburger" aria-hidden="true"><span></span></label>
+
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+ 
+    <section class="hero">
+      <div class="hero-text">
+        <p class="greeting">Ankita – Student & Aspiring Web Developer</p>
+        <h1>Hi, I am</h1>
+        <h1 class="role">Ankita</h1>
+        <p class="tagline">
+          I am passionate about learning web development and creating
+          beautiful websites using HTML, CSS and JavaScript.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn">Contact Me</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img src="profile.jpg" alt="Ankita's profile photo">
+      </div>
+    </section>
+
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+
+      <div class="about-grid">
+        <p>
+          Hello! My name is Ankita. I am 17 years old and I live in
+          Maruti Kunj, Haryana. I am a student who is interested in
+          technology, creativity and web development. I am currently
+          learning HTML, CSS and JavaScript to build modern and
+          attractive websites. I enjoy exploring new skills, learning
+          new things and working on creative projects. My goal is to
+          improve my technical knowledge and become a skilled web developer.
+        </p>
+
+        <ul class="facts">
+          <li>
+            <strong>17 Years Old</strong>
+            <span>My Age</span>
+          </li>
+          <li>
+            <strong>Maruti Kunj</strong>
+            <span>Haryana, India</span>
+          </li>
+          <li>
+            <strong>HTML, CSS, JS</strong>
+            <span>Learning Now</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section id="skills" class="section">
+      <h2>My Skills</h2>
+
+      <div class="grid skills-grid">
+
+        <article class="card skill-card">
+          <h3>HTML</h3>
+          <span>Beginner</span>
+          <div class="bar"><i style="--level:55%"></i></div>
+        </article>
+
+        <article class="card skill-card">
+          <h3>CSS</h3>
+          <span>Beginner</span>
+          <div class="bar"><i style="--level:45%"></i></div>
+        </article>
+
+        <article class="card skill-card">
+          <h3>JavaScript</h3>
+          <span>Learning</span>
+          <div class="bar"><i style="--level:20%"></i></div>
+        </article>
+
+        <article class="card skill-card">
+          <h3>Git & GitHub</h3>
+          <span>Beginner</span>
+          <div class="bar"><i style="--level:35%"></i></div>
+        </article>
+
+        <article class="card skill-card">
+          <h3>Flexbox & Grid</h3>
+          <span>Learning</span>
+          <div class="bar"><i style="--level:40%"></i></div>
+        </article>
+
+        <article class="card skill-card">
+          <h3>Responsive Design</h3>
+          <span>Learning</span>
+          <div class="bar"><i style="--level:40%"></i></div>
+        </article>
+
+      </div>
+    </section>
+
+   
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+
+      <div class="grid projects-grid">
+
+        <article class="card project-card">
+          <h3>Personal Intro Page</h3>
+          <p>A simple HTML page introducing myself with headings, paragraphs, images and links.</p>
+          <ul class="tags">
+            <li>HTML</li>
+          </ul>
+        </article>
+
+        <article class="card project-card">
+          <h3>Student Profile Card</h3>
+          <p>A styled profile card with attractive colors, borders and hover effects.</p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </article>
+
+        <article class="card project-card">
+          <h3>Responsive Landing Page</h3>
+          <p>A responsive website layout created using Flexbox, Grid and media queries.</p>
+          <ul class="tags">
+            <li>Flexbox</li>
+            <li>Grid</li>
+          </ul>
+        </article>
+
+        <article class="card project-card">
+          <h3>Mini Calculator</h3>
+          <p>A basic calculator with buttons for addition, subtraction, multiplication and division.</p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+
+      <form class="contact-form" action="#" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+
+      </form>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <p>&copy; 2026 Ankita. All rights reserved.</p>
+
+    <ul class="footer-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </footer>
+
+  <a href="#top" class="btn back-top">&uarr; Back to Top</a>
+
+</body>
+</html>
